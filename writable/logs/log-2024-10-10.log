@@ -1,0 +1,601 @@
+INFO - 2024-10-10 05:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 07:43:29 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 07:43:29 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 07:43:30 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 05:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 07:45:22 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 07:45:27 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 07:45:28 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 06:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 08:09:56 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 06:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 06:10:15 --> mysqli_sql_exception: Table 'dashboardregexbyte.contact-us' doesn't exist in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(79): App\Models\LoginModel->getExcel()
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-10 06:10:15 --> Table 'dashboardregexbyte.contact-us' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contact-us`', [], false)
+ 2 APPPATH\Models\LoginModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\LoginController.php(79): App\Models\LoginModel->getExcel()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:14:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\LoginModel.php on line 29.
+ 1 APPPATH\Controllers\LoginController.php(79): App\Models\LoginModel->getExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 06:15:34 --> mysqli_sql_exception: Table 'dashboardregexbyte.contact-us' doesn't exist in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(79): App\Models\LoginModel->getExcel()
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-10 06:15:34 --> Table 'dashboardregexbyte.contact-us' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contact-us`', [], false)
+ 2 APPPATH\Models\LoginModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\LoginController.php(79): App\Models\LoginModel->getExcel()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:27:32 --> Undefined property: stdClass::$field1
+in APPPATH\Controllers\LoginController.php on line 84.
+ 1 APPPATH\Controllers\LoginController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$field1', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:28:04 --> Attempt to read property "field1" on array
+in APPPATH\Controllers\LoginController.php on line 84.
+ 1 APPPATH\Controllers\LoginController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "field1" on array', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:28:16 --> Attempt to read property "field1" on array
+in APPPATH\Controllers\LoginController.php on line 84.
+ 1 APPPATH\Controllers\LoginController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "field1" on array', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:28:27 --> Undefined property: stdClass::$field1
+in APPPATH\Controllers\LoginController.php on line 84.
+ 1 APPPATH\Controllers\LoginController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$field1', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:30:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\LoginModel.php on line 29.
+ 1 APPPATH\Controllers\LoginController.php(79): App\Models\LoginModel->getExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:33:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\LoginModel.php on line 30.
+ 1 APPPATH\Controllers\LoginController.php(79): App\Models\LoginModel->getExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:37:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\LoginModel.php on line 30.
+ 1 APPPATH\Controllers\LoginController.php(79): App\Models\LoginModel->getExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 06:38:19 --> mysqli_sql_exception: Unknown column 'field1' in 'field list' in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `field1`...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `field1`...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `field1`...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `field1`...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(79): App\Models\LoginModel->getExcel()
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-10 06:38:19 --> Unknown column 'field1' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `field1`, `field2`
+FROM `contact_us`', [], false)
+ 2 APPPATH\Models\LoginModel.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\LoginController.php(79): App\Models\LoginModel->getExcel()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 06:38:55 --> mysqli_sql_exception: Unknown column 'field1' in 'field list' in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `field1`...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `field1`...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `field1`...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `field1`...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(81): App\Models\LoginModel->getExcel()
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-10 06:38:55 --> Unknown column 'field1' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `field1`, `field2`
+FROM `contact_us`', [], false)
+ 2 APPPATH\Models\LoginModel.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\LoginController.php(81): App\Models\LoginModel->getExcel()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 06:38:57 --> mysqli_sql_exception: Unknown column 'field1' in 'field list' in C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `field1`...', 0)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `field1`...')
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `field1`...')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `field1`...', Array, false)
+#4 C:\xampp\htdocs\dashboardRegexbyte\app\Models\LoginModel.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php(81): App\Models\LoginModel->getExcel()
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-10 06:38:57 --> Unknown column 'field1' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `field1`, `field2`
+FROM `contact_us`', [], false)
+ 2 APPPATH\Models\LoginModel.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\LoginController.php(81): App\Models\LoginModel->getExcel()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:42:58 --> Attempt to read property "field1" on string
+in APPPATH\Controllers\LoginController.php on line 84.
+ 1 APPPATH\Controllers\LoginController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "field1" on string', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:43:17 --> Attempt to read property "firstName" on string
+in APPPATH\Controllers\LoginController.php on line 84.
+ 1 APPPATH\Controllers\LoginController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstName" on string', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:44:55 --> Attempt to read property "firstName" on string
+in APPPATH\Controllers\LoginController.php on line 84.
+ 1 APPPATH\Controllers\LoginController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstName" on string', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:45:09 --> Attempt to read property "firstName" on array
+in APPPATH\Controllers\LoginController.php on line 84.
+ 1 APPPATH\Controllers\LoginController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstName" on array', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:51:24 --> Undefined property: stdClass::$lastName
+in APPPATH\Controllers\LoginController.php on line 87.
+ 1 APPPATH\Controllers\LoginController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$lastName', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:52:29 --> Undefined property: stdClass::$message
+in APPPATH\Controllers\LoginController.php on line 89.
+ 1 APPPATH\Controllers\LoginController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$message', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:55:33 --> Undefined property: stdClass::$current
+in APPPATH\Controllers\LoginController.php on line 90.
+ 1 APPPATH\Controllers\LoginController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$current', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:57:35 --> Undefined property: stdClass::$current_timestamp
+in APPPATH\Controllers\LoginController.php on line 91.
+ 1 APPPATH\Controllers\LoginController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$current_timestamp', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 06:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 06:58:44 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\LoginController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 06:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 07:00:15 --> Undefined property: stdClass::$current_timestamp
+in APPPATH\Controllers\LoginController.php on line 91.
+ 1 APPPATH\Controllers\LoginController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$current_timestamp', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 07:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 07:02:41 --> Undefined property: stdClass::$current_timestamp
+in APPPATH\Controllers\LoginController.php on line 91.
+ 1 APPPATH\Controllers\LoginController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$current_timestamp', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 07:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 07:03:19 --> Undefined property: stdClass::$current_timestamp
+in APPPATH\Controllers\LoginController.php on line 91.
+ 1 APPPATH\Controllers\LoginController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$current_timestamp', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->downloadExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 07:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 07:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 08:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 08:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:10:33 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\LoginController.php(678): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\dashboardRegexbyte\\uploads/', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:15:25 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 692.
+ 1 APPPATH\Controllers\LoginController.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 692)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:17:32 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 692.
+ 1 APPPATH\Controllers\LoginController.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 692)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:34:42 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 692.
+ 1 APPPATH\Controllers\LoginController.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 692)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:35:51 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 692.
+ 1 APPPATH\Controllers\LoginController.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 692)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:35:56 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 692.
+ 1 APPPATH\Controllers\LoginController.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 692)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:36:21 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 692.
+ 1 APPPATH\Controllers\LoginController.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 692)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:41:05 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 692.
+ 1 APPPATH\Controllers\LoginController.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 692)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:43:20 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 692.
+ 1 APPPATH\Controllers\LoginController.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 692)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:44:26 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 692.
+ 1 APPPATH\Controllers\LoginController.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 692)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:49:45 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 692.
+ 1 APPPATH\Controllers\LoginController.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 692)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:56:21 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 279.
+ 1 APPPATH\Controllers\LoginController.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 279)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('26')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 09:56:35 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 279.
+ 1 APPPATH\Controllers\LoginController.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 279)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('26')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 09:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 09:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 10:09:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Models\LoginModel.php on line 242.
+ 1 APPPATH\Controllers\LoginController.php(684): App\Models\LoginModel->getBlogById('14')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 10:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 10:10:16 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\LoginController.php on line 693.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->editBlog()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 10:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 10:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 11:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 13:09:21 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 13:09:22 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

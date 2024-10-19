@@ -1,0 +1,1585 @@
+INFO - 2024-10-02 05:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:04:45 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:04:47 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:04:49 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:04:59 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:05:00 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 05:18:34 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\LoginController.php(219): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\dashboardRegexbyte\\uploads/', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('22')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 05:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 05:20:24 --> Undefined variable $profile
+in APPPATH\Controllers\LoginController.php on line 236.
+ 1 APPPATH\Controllers\LoginController.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Controllers\\LoginController.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('22')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 05:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 05:31:00 --> Invalid file: "message_table_partial.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_table_partial.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('message_table_partial', [], true)
+ 3 APPPATH\Views\Message.php(180): view('message_table_partial', [...])
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 7 APPPATH\Controllers\LoginController.php(489): view('Message.php', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 05:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 05:38:44 --> Invalid file: "message_table_partial.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('message_table_partial.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('message_table_partial', [], true)
+ 3 APPPATH\Views\Message.php(180): view('message_table_partial', [...])
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 7 APPPATH\Controllers\LoginController.php(507): view('Message.php', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 05:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 05:39:49 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\Message.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-02 05:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 05:40:09 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\Message.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-02 05:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:51:04 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:51:05 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:51:28 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:51:29 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:51:29 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:51:33 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:51:33 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:51:33 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:52:12 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:52:13 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:52:13 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:52:15 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:52:16 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:52:16 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:52:34 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:52:35 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:52:35 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:53:00 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:53:01 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:53:03 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:53:03 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:53:03 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:53:17 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:53:17 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:53:18 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:53:31 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:53:32 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:53:32 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:53:44 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:53:44 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:53:49 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:53:50 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:53:50 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:54:07 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:54:07 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:54:07 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:54:09 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:54:09 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:54:10 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:54:28 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:54:29 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:54:29 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:54:31 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:54:31 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:54:32 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:54:48 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:54:48 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:54:48 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:54:50 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:54:50 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:55:06 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:55:06 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:55:09 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:55:09 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:55:10 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:55:36 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:55:37 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:55:39 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:55:39 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:55:39 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:55:54 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:55:54 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:55:55 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:55:57 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:55:57 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:55:58 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:56:16 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:56:30 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:56:30 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:56:41 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:56:41 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:56:41 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:56:43 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:56:44 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:56:44 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:56:54 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:56:55 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:57:03 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:57:03 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:57:03 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:57:16 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:57:16 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:57:26 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:57:27 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 05:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:57:43 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:57:43 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:57:44 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:57:46 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 07:57:46 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 05:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 06:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 06:20:40 --> Undefined variable $message
+in APPPATH\Views\Message.php on line 194.
+ 1 APPPATH\Views\Message.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 194)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(494): view('Message.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 06:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 06:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 06:28:03 --> Call to a member function paginate() on array
+in APPPATH\Controllers\LoginController.php on line 489.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 06:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 06:32:21 --> Call to a member function paginate() on array
+in APPPATH\Controllers\LoginController.php on line 489.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 06:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 06:42:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\LoginController.php on line 492.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 06:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 06:49:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\LoginController.php on line 492.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 06:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 06:49:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\LoginController.php on line 492.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 06:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 06:50:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\LoginController.php on line 492.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 06:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 06:50:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\LoginController.php on line 492.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:03:12 --> Call to a member function paginate() on array
+in APPPATH\Controllers\LoginController.php on line 494.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:03:30 --> Undefined array key "columns_id"
+in APPPATH\Views\Message.php on line 194.
+ 1 APPPATH\Views\Message.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns_id"', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 194)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message', [], true)
+ 5 APPPATH\Controllers\LoginController.php(497): view('Message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:04:03 --> Undefined array key "firstName"
+in APPPATH\Views\Message.php on line 199.
+ 1 APPPATH\Views\Message.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "firstName"', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 199)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message', [], true)
+ 5 APPPATH\Controllers\LoginController.php(497): view('Message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:06:36 --> Undefined array key "firstName"
+in APPPATH\Views\Message.php on line 199.
+ 1 APPPATH\Views\Message.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "firstName"', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 199)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message', [], true)
+ 5 APPPATH\Controllers\LoginController.php(497): view('Message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:06:56 --> Undefined array key "columns_id"
+in APPPATH\Views\Message.php on line 194.
+ 1 APPPATH\Views\Message.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns_id"', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 194)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message', [], true)
+ 5 APPPATH\Controllers\LoginController.php(497): view('Message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:07:51 --> Undefined array key "columns_id"
+in APPPATH\Views\Message.php on line 194.
+ 1 APPPATH\Views\Message.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns_id"', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 194)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message', [], true)
+ 5 APPPATH\Controllers\LoginController.php(497): view('Message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:27:54 --> Undefined array key "columns_id"
+in APPPATH\Views\Message.php on line 194.
+ 1 APPPATH\Views\Message.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns_id"', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 194)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message', [], true)
+ 5 APPPATH\Controllers\LoginController.php(497): view('Message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:36:08 --> Undefined array key "columns_id"
+in APPPATH\Views\Message.php on line 213.
+ 1 APPPATH\Views\Message.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns_id"', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 213)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message', [], true)
+ 5 APPPATH\Controllers\LoginController.php(507): view('Message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:36:58 --> Undefined array key "columns_id"
+in APPPATH\Views\Message.php on line 213.
+ 1 APPPATH\Views\Message.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns_id"', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 213)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message', [], true)
+ 5 APPPATH\Controllers\LoginController.php(507): view('Message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:37:00 --> Undefined array key "columns_id"
+in APPPATH\Views\Message.php on line 213.
+ 1 APPPATH\Views\Message.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns_id"', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 213)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message', [], true)
+ 5 APPPATH\Controllers\LoginController.php(507): view('Message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:37:01 --> Undefined array key "columns_id"
+in APPPATH\Views\Message.php on line 213.
+ 1 APPPATH\Views\Message.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns_id"', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 213)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message', [], true)
+ 5 APPPATH\Controllers\LoginController.php(507): view('Message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:43:51 --> Undefined array key "columns_id"
+in APPPATH\Views\Message.php on line 194.
+ 1 APPPATH\Views\Message.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "columns_id"', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 194)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message', [], true)
+ 5 APPPATH\Controllers\LoginController.php(507): view('Message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:51:45 --> Undefined variable $pager
+in APPPATH\Views\Message.php on line 223.
+ 1 APPPATH\Views\Message.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 223)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(453): view('Message.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:52:00 --> Undefined variable $pager
+in APPPATH\Views\Message.php on line 223.
+ 1 APPPATH\Views\Message.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 223)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(453): view('Message.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:52:19 --> Undefined variable $pager
+in APPPATH\Views\Message.php on line 223.
+ 1 APPPATH\Views\Message.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 223)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(453): view('Message.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 07:52:28 --> Undefined variable $pager
+in APPPATH\Views\Message.php on line 223.
+ 1 APPPATH\Views\Message.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 223)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(453): view('Message.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 07:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 09:59:31 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 09:59:32 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 07:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 07:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 08:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 08:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 08:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 08:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 08:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 08:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 09:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 09:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 12:03:54 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 12:03:55 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 10:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 10:24:37 --> Undefined variable $pager
+in APPPATH\Views\Message.php on line 225.
+ 1 APPPATH\Views\Message.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php', 225)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(453): view('Message.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 10:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 13:22:55 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 13:22:55 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 11:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 13:23:13 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 13:23:13 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 13:23:14 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 11:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 13:23:15 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 13:23:16 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 11:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 13:23:30 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 13:23:30 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 13:23:31 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 11:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 11:28:18 --> syntax error, unexpected token "/"
+in APPPATH\Controllers\LoginController.php on line 455.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(256): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\dashboardRegexbyte\\vendor\\composer/../../app/Controllers/LoginController.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\LoginController')
+ 3 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LoginController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 11:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 13:28:50 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 13:28:51 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 13:28:51 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 17:30:30 --> Undefined variable $slider
+in APPPATH\Views\index.php on line 44.
+ 1 APPPATH\Views\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(73): view('index.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 17:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:30:34 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:30:34 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:31:55 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:31:55 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:31:59 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:31:59 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:32:17 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:32:17 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:32:20 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:32:20 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:32:20 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:32:35 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:32:35 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:32:38 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:32:38 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:32:47 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:32:48 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:32:50 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:32:50 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:33:00 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:33:00 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:33:02 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:33:02 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 19:33:13 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 19:33:13 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 17:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 17:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 18:02:10 --> "Message" is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 122.
+ 1 SYSTEMPATH\Pager\Pager.php(122): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('Message')
+ 2 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'Message')
+ 3 APPPATH\Models\LoginModel.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 20, 25, 'Message')
+ 4 APPPATH\Controllers\LoginController.php(457): App\Models\LoginModel->getPager(20, 1)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 18:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 18:02:59 --> "/layouts/main.php" is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 122.
+ 1 SYSTEMPATH\Pager\Pager.php(122): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('/layouts/main.php')
+ 2 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', '/layouts/main.php')
+ 3 APPPATH\Models\LoginModel.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 20, 25, '/layouts/main.php')
+ 4 APPPATH\Controllers\LoginController.php(457): App\Models\LoginModel->getPager(20, 1)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 18:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 18:03:13 --> "layouts/main.php" is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 122.
+ 1 SYSTEMPATH\Pager\Pager.php(122): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('layouts/main.php')
+ 2 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'layouts/main.php')
+ 3 APPPATH\Models\LoginModel.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 20, 25, 'layouts/main.php')
+ 4 APPPATH\Controllers\LoginController.php(457): App\Models\LoginModel->getPager(20, 1)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 18:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 18:03:28 --> "main.php" is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 122.
+ 1 SYSTEMPATH\Pager\Pager.php(122): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('main.php')
+ 2 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'main.php')
+ 3 APPPATH\Models\LoginModel.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 20, 25, 'main.php')
+ 4 APPPATH\Controllers\LoginController.php(457): App\Models\LoginModel->getPager(20, 1)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 18:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 18:06:47 --> Invalid file: "CodeIgniter\Pager\Views\layouts\main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CodeIgniter\\Pager\\Views\\layouts\\main.php')
+ 2 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('CodeIgniter\\Pager\\Views\\layouts\\main.php')
+ 3 SYSTEMPATH\Pager\Pager.php(112): CodeIgniter\Pager\Pager->displayLinks('default', 'default_main')
+ 4 APPPATH\Models\LoginModel.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 20, 25, 'default_main')
+ 5 APPPATH\Controllers\LoginController.php(457): App\Models\LoginModel->getPager(20, 1)
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 18:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 18:40:55 --> Call to a member function getPageCount() on string
+in APPPATH\Views\Message.php on line 232.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 4 APPPATH\Controllers\LoginController.php(461): view('Message.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 18:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 18:42:06 --> Call to a member function getPageCount() on string
+in APPPATH\Views\Message.php on line 232.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 4 APPPATH\Controllers\LoginController.php(461): view('Message.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 18:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 18:42:49 --> Call to a member function getResultArray() on string
+in APPPATH\Views\Message.php on line 232.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 4 APPPATH\Controllers\LoginController.php(461): view('Message.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 18:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 18:43:16 --> Call to a member function getPageCount() on string
+in APPPATH\Views\Message.php on line 232.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 4 APPPATH\Controllers\LoginController.php(461): view('Message.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 18:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 18:45:14 --> Call to a member function getPageCount() on string
+in APPPATH\Views\Message.php on line 232.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Message.php', [], true)
+ 4 APPPATH\Controllers\LoginController.php(460): view('Message.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->message()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-02 18:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:45:57 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:45:58 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:46:10 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:46:10 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:46:11 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:46:27 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:46:27 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:46:28 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:46:43 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:46:43 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:46:43 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:46:54 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:46:54 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:46:54 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:47:12 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:47:12 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:47:12 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:47:24 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:47:24 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:47:33 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:47:33 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:47:34 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:47:42 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:47:43 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:47:50 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:47:51 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:48:21 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:48:21 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:48:21 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:48:32 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:48:33 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:48:41 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:48:42 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:48:42 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:48:51 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:48:52 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:48:52 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:49:03 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:49:03 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:49:12 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:49:12 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:49:19 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:49:20 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:49:31 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:49:31 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:49:31 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:49:38 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:49:39 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:49:50 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:49:51 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:49:51 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 20:50:02 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 20:50:02 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 18:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 18:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 21:03:44 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 21:03:45 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 21:03:45 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 19:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 21:06:01 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 21:06:02 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 21:06:02 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-02 19:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 19:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 21:06:53 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-02 21:06:54 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

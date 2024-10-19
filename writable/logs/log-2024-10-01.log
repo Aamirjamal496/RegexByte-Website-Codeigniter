@@ -1,0 +1,554 @@
+INFO - 2024-10-01 14:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 16:16:26 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 16:16:27 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 14:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 14:18:09 --> Slide not found.
+in APPPATH\Models\LoginModel.php on line 82.
+ 1 APPPATH\Controllers\LoginController.php(219): App\Models\LoginModel->getSliderById('17')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 14:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 14:18:27 --> Slide not found.
+in APPPATH\Models\LoginModel.php on line 82.
+ 1 APPPATH\Controllers\LoginController.php(219): App\Models\LoginModel->getSliderById('17')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 14:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 14:18:40 --> Slide not found.
+in APPPATH\Models\LoginModel.php on line 82.
+ 1 APPPATH\Controllers\LoginController.php(219): App\Models\LoginModel->getSliderById('17')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 14:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 14:20:43 --> Undefined variable $slider
+in APPPATH\Views\Slider.php on line 232.
+ 1 APPPATH\Views\Slider.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Slider.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(260): view('Slider.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 14:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 19:14:36 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 19:14:37 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 17:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 17:16:13 --> Undefined variable $slider
+in APPPATH\Views\Slider.php on line 232.
+ 1 APPPATH\Views\Slider.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Slider.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(260): view('Slider.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('18')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 17:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 17:18:28 --> Undefined variable $slider
+in APPPATH\Views\Slider.php on line 232.
+ 1 APPPATH\Views\Slider.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Slider.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(260): view('Slider.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('18')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 17:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 17:18:41 --> Undefined variable $slider
+in APPPATH\Views\Slider.php on line 232.
+ 1 APPPATH\Views\Slider.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Slider.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(260): view('Slider.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('18')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 17:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 17:26:18 --> Undefined variable $slider
+in APPPATH\Views\Slider.php on line 232.
+ 1 APPPATH\Views\Slider.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Slider.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(260): view('Slider.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('18')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 17:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 17:28:02 --> Undefined variable $slider
+in APPPATH\Views\Slider.php on line 232.
+ 1 APPPATH\Views\Slider.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Slider.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(261): view('Slider.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('18')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 17:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 17:28:42 --> base_url(): Argument #2 ($scheme) must be of type ?string, array given, called in C:\xampp\htdocs\dashboardRegexbyte\app\Controllers\LoginController.php on line 203
+in SYSTEMPATH\Helpers\url_helper.php on line 48.
+ 1 APPPATH\Controllers\LoginController.php(203): base_url('slider', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->getSliderdash()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 17:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 17:35:59 --> Slide not found.
+in APPPATH\Models\LoginModel.php on line 82.
+ 1 APPPATH\Controllers\LoginController.php(219): App\Models\LoginModel->getSliderById('21')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('21')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 17:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 17:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 19:03:41 --> Undefined variable $slider
+in APPPATH\Views\Slider.php on line 232.
+ 1 APPPATH\Views\Slider.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Slider.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(260): view('Slider.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('18')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 19:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 19:04:58 --> Undefined variable $slider
+in APPPATH\Views\Slider.php on line 232.
+ 1 APPPATH\Views\Slider.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Slider.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(260): view('Slider.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('18')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 19:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 19:05:13 --> Undefined variable $slider
+in APPPATH\Views\Slider.php on line 232.
+ 1 APPPATH\Views\Slider.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Slider.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(260): view('Slider.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('18')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 19:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 19:11:30 --> Undefined variable $slider
+in APPPATH\Views\Slider.php on line 232.
+ 1 APPPATH\Views\Slider.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Slider.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(260): view('Slider.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('18')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 19:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 19:11:46 --> Undefined variable $slider
+in APPPATH\Views\Slider.php on line 232.
+ 1 APPPATH\Views\Slider.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slider', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboardRegexbyte\\app\\Views\\Slider.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Slider.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(260): view('Slider.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('18')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 19:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 19:22:54 --> Undefined property: Config\App::$indexPage
+in SYSTEMPATH\HTTP\SiteURI.php on line 98.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$indexPage', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\system\\HTTP\\SiteURI.php', 98)
+ 2 SYSTEMPATH\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'slider', null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('slider')
+ 4 SYSTEMPATH\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 6 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 7 SYSTEMPATH\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 8 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+ 9 SYSTEMPATH\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+11 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-01 19:22:54 --> Uncaught ErrorException: Undefined property: Config\App::$indexPage in C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURI.php:98
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'slider', NULL)
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('slider')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#4 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#5 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#9 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#10 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#11 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(520): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xampp\htdocs\dashboardRegexbyte\system\Debug\Exceptions.php(137): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#17 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$indexPage
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'slider', NULL)
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('slider')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#4 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#5 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#9 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#10 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#11 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-01 19:22:56 --> Undefined property: Config\App::$indexPage
+in SYSTEMPATH\HTTP\SiteURI.php on line 98.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$indexPage', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\system\\HTTP\\SiteURI.php', 98)
+ 2 SYSTEMPATH\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'slider', null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('slider')
+ 4 SYSTEMPATH\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 6 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 7 SYSTEMPATH\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 8 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+ 9 SYSTEMPATH\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+11 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-01 19:22:56 --> Uncaught ErrorException: Undefined property: Config\App::$indexPage in C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURI.php:98
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'slider', NULL)
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('slider')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#4 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#5 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#9 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#10 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#11 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(520): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xampp\htdocs\dashboardRegexbyte\system\Debug\Exceptions.php(137): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#17 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$indexPage
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'slider', NULL)
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('slider')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#4 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#5 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#9 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#10 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#11 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-01 19:23:01 --> Undefined property: Config\App::$indexPage
+in SYSTEMPATH\HTTP\SiteURI.php on line 98.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$indexPage', 'C:\\xampp\\htdocs\\dashboardRegexbyte\\system\\HTTP\\SiteURI.php', 98)
+ 2 SYSTEMPATH\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'slider', null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('slider')
+ 4 SYSTEMPATH\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 6 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 7 SYSTEMPATH\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 8 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+ 9 SYSTEMPATH\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+11 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-01 19:23:01 --> Uncaught ErrorException: Undefined property: Config\App::$indexPage in C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURI.php:98
+Stack trace:
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'slider', NULL)
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('slider')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#4 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#5 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#9 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#10 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#11 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(520): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xampp\htdocs\dashboardRegexbyte\system\Debug\Exceptions.php(137): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#17 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$indexPage
+#0 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'slider', NULL)
+#2 C:\xampp\htdocs\dashboardRegexbyte\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('slider')
+#3 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#4 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#5 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#6 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#7 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#8 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#9 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#10 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#11 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xampp\htdocs\dashboardRegexbyte\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xampp\htdocs\dashboardRegexbyte\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xampp\htdocs\dashboardRegexbyte\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xampp\htdocs\dashboardRegexbyte\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-01 19:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 19:30:32 --> Slide not found.
+in APPPATH\Models\LoginModel.php on line 82.
+ 1 APPPATH\Controllers\LoginController.php(219): App\Models\LoginModel->getSliderById('17')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('17')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 19:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 19:32:00 --> Slide not found.
+in APPPATH\Models\LoginModel.php on line 82.
+ 1 APPPATH\Controllers\LoginController.php(219): App\Models\LoginModel->getSliderById('22')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->UpdateSlider('22')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-01 19:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 19:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 21:33:01 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 21:33:03 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 21:33:16 --> Call to undefined method CodeIgniter\Autoloader\Autoloader::initializeKint()
+in SYSTEMPATH\Boot.php on line 293.
+ 1 SYSTEMPATH\Boot.php(56): CodeIgniter\Boot::initializeKint()
+ 2 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

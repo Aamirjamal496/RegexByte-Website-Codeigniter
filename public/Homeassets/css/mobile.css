@@ -1,0 +1,151 @@
+@media screen and (max-width: 1290px) {
+  /* sliders *
+  /* body {
+    overflow-x: hidden;
+  } */
+  .top-nav {
+    display: none !important;
+  }
+  .bg-cover h3 {
+    font-size: 38px;
+  }
+
+  /* inquiry section */
+  .inquiry-section {
+    border-radius: unset;
+    padding: 20px;
+    position: unset;
+
+    margin-top: unset;
+    max-width: unset;
+    z-index: unset;
+  }
+
+  .vertical-seperator {
+    border-left: unset;
+    height: unset;
+    position: unset;
+    left: unset;
+    top: unset;
+  }
+  .contact-icon a {
+    display: none;
+  }
+
+  .support-icon a {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 77, 41, 0.577);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main) !important;
+    font-size: 10px;
+    border-radius: 100%;
+    border: var(--border);
+  }
+  .partner-section {
+    margin-left: 24px;
+    margin-top: 20px;
+  }
+
+  /* about us */
+
+  #about {
+    margin-top: 0% !important;
+    margin-left: 20px;
+  }
+
+  .support-icon .help-icon a {
+    margin-left: 50px;
+  }
+  .contact-us-button {
+    /* margin-top: -80%;
+    margin-left: 10%;
+
+    z-index: 9; */
+    display: none;
+  }
+
+  .contact-us-button button {
+    display: none;
+  }
+
+  .support-icon .technical-support-icon img {
+    margin-top: 33px !important;
+  }
+  .support-icon .technical-support h5 {
+    margin-top: 30px !important;
+  }
+
+  .features-img img {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Blog-posts */
+
+  .blog-border {
+    border-right: unset;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.349);
+  }
+
+  .blog-border:hover h3 {
+    margin-top: -320px;
+  }
+  .blog-border:hover p {
+    margin-top: -100px !important;
+  }
+  .blog-border:hover button {
+    margin-bottom: 50px;
+  }
+
+  .blog-post:hover {
+    margin-bottom: 50%;
+  }
+
+  /* Single Blog Page */
+  .blog-tag button {
+    display: none !important;
+  }
+  .item .tag-heading {
+    display: none !important;
+  }
+  .blog-details {
+    margin-bottom: 50px;
+    margin-left: 10px;
+  }
+  .blog-content {
+    margin-top: unset !important;
+  }
+  .check-icons i {
+    font-size: 16px !important;
+  }
+  .check-icons p {
+    margin-left: unset !important;
+  }
+
+  /* Career page */
+  .title::before {
+    transform: translateY(42px) !important;
+  }
+
+  .bg-text {
+    position: absolute;
+    top: 112% !important;
+    left: 51% !important;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70% !important;
+    letter-spacing: 3px;
+    text-shadow: 3px 5px 2px rgb(215, 111, 7);
+
+    text-align: center;
+    display: none !important;
+  }
+  /* back to top btn*/
+  #btn-back-to-top {
+    padding: 2px 10px !important;
+    margin-bottom: 20px !important;
+  }
+}
